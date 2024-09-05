@@ -23,7 +23,7 @@ public class StudentLst {
         String str="";
 
         //To Do 03: complete the implementation of this method
-        // iterates through the students array and adds the names to the str string
+        //iterates through the students array and adds the names to the str string
         for(Student student : students){
             str+=student.getName()+" ";
         }
